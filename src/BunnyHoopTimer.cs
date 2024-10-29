@@ -75,14 +75,14 @@ public class BunnyHoopTimer : BasePlugin
     public void EnableBunnyHoop()
     {
         Server.ExecuteCommand("sv_autobunnyhopping 1");
-        if (!Config.ShowMessages) return;
+        if (!Config.ShowChatMessages) return;
         Server.PrintToChatAll(Config.Tag + Localizer["bunnyhoop_enabled"]);
     }
 
     public void DisableBunnyHoop()
     {
         Server.ExecuteCommand("sv_autobunnyhopping 0");
-        if (!Config.ShowMessages) return;
+        if (!Config.ShowChatMessages) return;
         Server.PrintToChatAll(Config.Tag + Localizer["bunnyhoop_disabled", Config.BunnyHoopTimer]);
     }
 }
