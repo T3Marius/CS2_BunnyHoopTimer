@@ -1,2 +1,12 @@
 # CS2_BunnyHoopTimer
-Add a timer on round start before enableing the bunnyhoop. Perfect for jailbreak servers in my opinion.
+# Config
+```ini
+[Tag]
+Tag = "{lime}[BunnyHoop]{default} "
+
+[Settings]
+BunnyHoopTimer = 30
+PrintToCenterHtml = true
+ShowChatMessages = true
+
+```
