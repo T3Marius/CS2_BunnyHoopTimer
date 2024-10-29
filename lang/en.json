@@ -1,0 +1,5 @@
+{
+  "bunnyhoop_enabled": "BunnyHoop has now been {lime}enabled{default}.",
+  "bunnyhoop_disabled": "BunnyHoop is disabled, enabling it in {lime}{0}{default} seconds.",
+  "bunnyhoop_disabled_center": "BunnyHoop is disabled, enabling it in <font color='lime'>{0}</font> seconds."
+}
